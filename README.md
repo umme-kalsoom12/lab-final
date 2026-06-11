@@ -25,53 +25,83 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
-
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
-
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+MediCare
+Introduction
+MediCare is an online doctor appointment system that makes healthcare services easier to access. Patients can search for doctors, view their profiles, check availability, and book appointments online. The system also includes an AI Symptom Checker that recommends suitable doctors based on the symptoms entered by the user.
+Project Objectives
+Provide a simple and convenient online appointment booking system.
+Help patients find the right doctor using AI-based recommendations.
+Simplify appointment management for both patients and doctors.
+Improve the overall healthcare experience through an easy-to-use platform.
+Key Features
+User Authentication
+Secure registration and login for patients, doctors, and administrators.
+Doctor Management
+View doctor profiles, specializations, and consultation fees.
+Search and filter doctors based on specialization.
+AI Symptom Checker
+Analyze user symptoms and recommend the most suitable doctor.
+Appointment Booking
+Check doctor availability and book appointments online.
+Notifications
+Inform users about appointment approval, rejection, and updates.
+Admin Dashboard
+Manage doctors, patients, and appointments from a central dashboard.
+Technologies Used
+Backend
+PHP (Laravel Framework)
+Frontend
+HTML5
+CSS3
+JavaScript
+Bootstrap 5
+Database
+MySQL
+Development Tools
+Visual Studio Code
+XAMPP
+Composer
+Version Control
+Git and GitHub
+Functional Requirements
+Patient
+Register and log in.
+Manage profile information.
+Search and view doctors.
+Use the AI Symptom Checker.
+Book appointments.
+View appointment history and status.
+Doctor
+Log in to the system.
+Manage availability schedules.
+Approve or reject appointment requests.
+View patient appointment details.
+Access appointment statistics.
+Administrator
+Manage doctor records.
+Manage patient accounts.
+Monitor appointments.
+View system reports and statistics.
+Maintain overall system operations.
+Non-Functional Requirements
+Performance
+The system should load quickly and provide a smooth user experience.
+Security
+User data and passwords must be protected using secure encryption methods.
+Scalability
+The system should support a growing number of users and appointments.
+Reliability
+The platform should remain available and stable at all times.
+Usability
+The interface should be simple, clear, and easy to use.
+Responsiveness
+The website should work properly on desktops, tablets, and mobile devices.
+Future Enhancements
+Integration with JazzCash and EasyPaisa payment gateways.
+Real-time video consultation between doctors and patients.
+SMS and email appointment notifications.
+Doctor reviews and ratings.
+Push notifications for reminders and updates.
+Electronic medical records and patient history management. :::
